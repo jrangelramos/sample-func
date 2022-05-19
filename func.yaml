@@ -8,6 +8,7 @@ imageDigest: ""
 build: git
 git:
   url: https://github.com/jrangelramos/sample-func
+  revision: main
 builder: quay.io/boson/faas-nodejs-builder
 builders:
   default: quay.io/boson/faas-nodejs-builder
