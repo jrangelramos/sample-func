@@ -3,7 +3,7 @@ name: sample-func
 namespace: ""
 runtime: node
 registry: ""
-image: image-registry.openshift-image-registry.svc:5000/func1/sample-func:latest
+image: image-registry.openshift-image-registry.svc:5000/func/sample-func:latest
 imageDigest: ""
 build: git
 git:
