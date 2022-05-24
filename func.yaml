@@ -9,7 +9,7 @@ build: git
 git:
   url: https://github.com/jrangelramos/sample-func
   revision: main
-builder: ""
+builder: gcr.io/paketo-buildpacks/builder:0.1.229-base
 builders: {}
 buildpacks: []
 volumes: []
